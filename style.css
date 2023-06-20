@@ -1,8 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden;
+
+}
+
+section {
+    margin: 1rem 2.5rem;
+}
+
 /* navbar */
 .navbar {
     padding: 0 1.5rem;
@@ -11,42 +21,212 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar img{
+
+.navbar img {
     height: 3rem;
     width: 3rem;
 }
-.navbar .search button{
+
+.navbar .search button {
     position: absolute;
     margin-right: .5rem;
 }
-.navbar .search input{
+
+.navbar .search input {
     height: 1.8rem;
     width: 28rem;
     padding-left: .5rem;
 }
-.navbar .search button{
+
+.navbar .search button {
     height: 1.8rem;
     width: 2rem;
 }
+
 .navbar .navlink {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
-.navbar .navlink ul{
-display: flex;
-text-decoration: none;
-list-style: none;
+
+.navbar .navlink ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
 }
-.navbar .navlink ul li{
+
+.navbar .navlink ul li {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     margin: .8rem;
 }
-.navbar .navlink button{
+
+.navbar .navlink button {
     border-radius: 1.2rem;
     height: 1.5rem;
     padding: 1rem;
 
+}
+
+/* hero */
+.hero {
+    display: flex;
+
+
+
+}
+
+.hero .heroleft {
+    padding-right: 15rem;
+    /* flex-grow: 1; */
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.hero .heroright {
+    /* flex-grow: ; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero .herotop {
+    display: flex;
+}
+
+.hero .herobottom {
+    display: flex;
+}
+
+.hero .heroimg img {
+    border-radius: .4rem;
+    margin: 1rem;
+    height: 10.2rem;
+    width: 8rem;
+}
+
+/* client */
+.clientcontent {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.clientcontent h3 {
+    font-size: 2rem;
+
+}
+
+.clientcontent .clientimg {
+    display: flex;
+}
+
+.clientcontent .clientimg img {
+    height: 5rem;
+    width: 10rem;
+}
+
+/* .shortdetail */
+.detailbg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailbg img {
+    height: 5.5rem;
+    width: 20rem;
+}
+
+/* shortdetailinfo */
+.intership {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center ; */
+}
+
+.intership h1 {
+    font-size: 3rem;
+}
+
+.intership p {
+    padding: 0 10rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cd1 {
+    margin-top: 0;
+}
+
+.cd2 {
+    margin-top: 5rem;
+}
+
+.cd3 {
+    margin-top: 10rem;
+}
+
+.cards img {
+    height: 14rem;
+    width: 10rem;
+}
+
+/* ournumber */
+.ournumber span {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.ournumber .row,
+.ournumber .row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ournumber .row .num1,
+.ournumber .row2 .num1 {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img,
+.row2 img {
+
+    position: relative;
+    margin-bottom: -5rem;
+    height: 8rem;
+    width: 15rem;
+}
+/* Alumni */
+.crousal{
+    display: flex;
+}
+.card1{
+    margin: 1rem 2rem;
+    /* background: #1fd84d; */
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card1 .person img{
+border-radius: 10rem;
+height: 7rem;
+width: 7rem;
+}
+.card1 .complogo img{
+    height: 2.5rem;
+    width: 6rem;
 }
